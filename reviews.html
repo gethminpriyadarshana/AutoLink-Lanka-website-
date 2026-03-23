@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Customer Reviews - AutoLinkLanka</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+.review-section{
+padding:60px;
+background:#f4f4f4;
+text-align:center;
+}
+
+.review-container{
+max-width:500px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.review-container h2{
+margin-bottom:20px;
+}
+
+.review-container input,
+.review-container textarea{
+width:100%;
+padding:12px;
+margin:10px 0;
+border-radius:6px;
+border:1px solid #ccc;
+}
+
+.rating{
+margin:10px 0;
+}
+
+.rating span{
+font-size:25px;
+cursor:pointer;
+color:gold;
+}
+
+.submit-btn{
+background:#1335cd;
+color:white;
+border:none;
+padding:12px 25px;
+border-radius:8px;
+cursor:pointer;
+font-size:16px;
+margin-top:10px;
+}
+
+.submit-btn:hover{
+background:#0e289e;
+}
+
+.review-list{
+margin-top:40px;
+text-align:left;
+}
+
+.review-card{
+background:white;
+padding:15px;
+border-radius:8px;
+margin-bottom:15px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header style="text-align:center; padding:20px;">
+<h1>Customer Reviews</h1>
+<p>Share your experience with AutoLinkLanka</p>
+</header>
+
+<section class="review-section">
+
+<div class="review-container">
+
+<h2>Leave a Review</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name" required>
+
+<div class="rating">
+<p>Rating:</p>
+<span>⭐</span>
+<span>⭐</span>
+<span>⭐</span>
+<span>⭐</span>
+<span>⭐</span>
+</div>
+
+<textarea rows="5" placeholder="Write your review..." required></textarea>
+
+<button class="submit-btn">Submit Review</button>
+
+</form>
+
+</div>
+
+
+<div class="review-list">
+
+<h2 style="text-align:center;">Customer Feedback</h2>
+
+<div class="review-card">
+<strong>Nimal</strong>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Great service! My car wash was perfect.</p>
+</div>
+
+<div class="review-card">
+<strong>Kamal</strong>
+<p>⭐⭐⭐⭐</p>
+<p>Very fast oil change service. Recommended!</p>
+</div>
+
+<div class="review-card">
+<strong>Sanduni</strong>
+<p>⭐⭐⭐⭐⭐</p>
+<p>Easy booking system and friendly staff.</p>
+</div>
+
+</div>
+
+</section>
+
+</body>
+
+</html>

@@ -1,0 +1,272 @@
+html{
+scroll-behavior:smooth;
+}
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+line-height:1.6;
+}
+
+
+
+header{
+padding:15px 80px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(255,255,255,0.9);
+backdrop-filter:blur(10px);
+position:sticky;
+top:0;
+z-index:1000;
+border-bottom:1px solid #eee;
+}
+
+.nav-logo-img{
+height:45px;
+}
+
+nav a{
+color:black;
+margin-left:25px;
+font-size:16px;
+text-decoration:none;
+font-weight:500;
+}
+
+nav a:hover{
+color:#1335cd;
+}
+
+
+
+.hero{
+height:550px;
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/Gemini_Generated_Image_a3lzpsa3lzpsa3lz.png');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:0 120px;
+color:white;
+}
+
+.hero-text h1{
+font-size:42px;
+margin-bottom:10px;
+}
+
+.hero-text p{
+font-size:18px;
+}
+
+.download-container{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+.download-links{
+display:flex;
+flex-direction:column;
+gap:15px;
+margin-top:20px;
+}
+
+.download-btn{
+background:black;
+color:white;
+text-decoration:none;
+padding:12px 25px;
+border-radius:8px;
+width:200px;
+text-align:center;
+font-size:14px;
+transition:0.3s;
+}
+
+.download-btn:hover{
+background:#333;
+transform:translateY(-3px);
+}
+
+
+
+.services{
+text-align:center;
+padding:80px 100px;
+background:#f4f4f6;
+}
+
+.services h2{
+font-size:30px;
+margin-bottom:40px;
+}
+
+.service-container{
+display:flex;
+justify-content:center;
+gap:40px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+width:240px;
+}
+
+.card img{
+width:100%;
+height:140px;
+border-radius:10px;
+margin-bottom:10px;
+}
+
+
+
+
+
+.features{
+padding:100px 20px;
+text-align:center;
+
+
+background: linear-gradient(270deg,#636465,#475875,#8f8d92,#eeeff1);
+background-size:800% 800%;
+animation: gradientMove 15s ease infinite;
+
+color:white;
+}
+
+
+
+@keyframes gradientMove{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+.feature-box{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+
+
+.feature-btn{
+padding:18px 40px;
+border-radius:40px;
+text-decoration:none;
+font-weight:bold;
+font-size:16px;
+color:white;
+
+background: rgba(255,255,255,0.15);
+backdrop-filter: blur(10px);
+
+border:1px solid rgba(0, 0, 0, 0.3);
+
+transition:0.4s;
+}
+
+
+
+.feature-btn:hover{
+transform:translateY(-8px) scale(1.05);
+box-shadow:0 10px 25px rgba(0,0,0,0.4);
+background:rgba(0, 0, 0, 0.96);
+}
+
+.shops{
+padding:80px 100px;
+text-align:center;
+background:#566089;
+color:white;
+}
+
+.shops h2{
+margin-bottom:25px;
+}
+
+.search{
+padding:12px 20px;
+border-radius:8px;
+border:none;
+margin-bottom:40px;
+width:250px;
+}
+
+.shop-container{
+display:flex;
+justify-content:center;
+gap:35px;
+}
+
+.shop-card{
+background:white;
+color:black;
+padding:15px;
+border-radius:10px;
+width:230px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.shop-card img{
+width:100%;
+height:130px;
+border-radius:10px;
+margin-bottom:10px;
+}
+
+
+
+
+footer{
+text-align:center;
+padding:50px 20px;
+background:#ddd;
+}
+
+.footer-brand{
+display:flex;
+flex-direction:column;
+align-items:center;
+margin-bottom:15px;
+}
+
+.footer-logo{
+height:50px;
+margin-bottom:10px;
+}
+
+.footer-title{
+margin:0;
+}
+
+.footer-info p{
+margin:6px 0;
+font-size:15px;
+}
+
+.copy{
+margin-top:20px;
+font-size:14px;
+color:#444;
+}
+.whatsapp-link {
+    text-decoration: none;
+    color: inherit; 
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.whatsapp-link:hover {
+    color: #25D366; /* Changes to WhatsApp green on hover */
+}

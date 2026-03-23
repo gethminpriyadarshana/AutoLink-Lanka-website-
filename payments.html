@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Easy Payments - AutoLinkLanka</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+.payment-section{
+padding:60px;
+text-align:center;
+background:#f4f4f4;
+}
+
+.payment-box{
+background:white;
+width:400px;
+margin:auto;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.payment-box h2{
+margin-bottom:20px;
+}
+
+.payment-box input{
+width:100%;
+padding:12px;
+margin:10px 0;
+border-radius:6px;
+border:1px solid #ccc;
+}
+
+.row{
+display:flex;
+gap:10px;
+}
+
+.pay-btn{
+width:100%;
+padding:14px;
+background:#1335cd;
+color:white;
+border:none;
+border-radius:8px;
+font-size:16px;
+cursor:pointer;
+margin-top:10px;
+}
+
+.pay-btn:hover{
+background:#0e289e;
+}
+
+.method{
+margin-bottom:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header style="text-align:center; padding:20px;">
+<h1>Easy Payments</h1>
+<p>Secure payment for AutoLinkLanka services</p>
+</header>
+
+
+<section class="payment-section">
+
+<div class="payment-box">
+
+<h2>Card Payment</h2>
+
+<form>
+
+<input type="text" placeholder="Card Holder Name" required>
+
+<input type="text" placeholder="Card Number (1234 5678 9012 3456)" required>
+
+<div class="row">
+
+<input type="text" placeholder="MM/YY" required>
+
+<input type="password" placeholder="CVV" required>
+
+</div>
+
+<input type="number" placeholder="Payment Amount (LKR)" required>
+
+<button class="pay-btn">Pay Now</button>
+
+</form>
+
+<div class="method">
+
+<h3>Other Payment Methods</h3>
+
+<p>✔ Credit Card</p>
+<p>✔ Debit Card</p>
+<p>✔ Mobile Banking</p>
+<p>✔ Cash Payment</p>
+
+</div>
+
+</div>
+
+</section>
+
+</body>
+
+</html>
